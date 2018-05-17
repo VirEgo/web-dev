@@ -1,0 +1,12 @@
+div {
+	width: 400px;
+	height: 200px;
+	margin: 50px 0 0 50px;
+	background-image: url(../w3c.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center, center;
+	background-origin: padding-box;
+	box-shadow: -40px 40px 20px 40px green, 20px -40px 20px 40px black;
+	
+}
