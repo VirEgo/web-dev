@@ -1,12 +1,14 @@
 div {
-	width: 400px;
-	height: 200px;
+	width: 275px;
+	height: 175px;
 	margin: 50px 0 0 50px;
 	background-image: url(../w3c.jpg);
 	background-repeat: no-repeat;
-	background-size: auto;
 	background-position: center, center;
-	background-origin: padding-box;
-	box-shadow: -40px 40px 20px 40px green, 20px -40px 20px 40px black;
-	
+	box-shadow:inset 40px -40px 30px 10px green, 
+				inset -40px 40px 20px 20px black,
+				-40px -40px 30px 10px red,
+				40px 40px 20px 20px blue;
+
+
 }
