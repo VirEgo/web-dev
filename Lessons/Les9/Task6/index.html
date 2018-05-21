@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Создание навигации</title>
+      <meta charset="utf-8" />
+      <style>
+
+      ul {
+      	list-style-type: none;
+
+      }
+
+      .main_ul>li {
+      	float: left;
+      }
+
+      ul li a {
+      	display: block;
+      	padding: 5px;
+  		border: 2px solid black;
+  		color: white;
+  		text-decoration: none;
+  		width: 80px;
+  		text-align: center;
+  		margin-left: 10px;
+      }
+      	.lvl_one{
+      		background: red;
+      		
+      	}
+      	.lvl_two{
+      		background-color: green;
+      	}
+      	.lvl_three{
+      		background-color: blue;
+      	}
+      </style>
+   </head>
+   <body>
+      <ul class="main_ul">
+         <li>
+            <a href="#"  class="lvl_one">Уровень 1</a>
+            <ul>
+               <li><a href="#" class="lvl_two">Уровень 2</a></li>
+               <li><a href="#" class="lvl_two">Уровень 2</a></li>
+            </ul>
+         </li>
+         <li><a href="#" class="lvl_one">Уровень 1</a></li>
+         <li>
+            <a href="#" class="lvl_one">Уровень 1</a>
+            <ul>
+               <li>
+                  <a href="#" class="lvl_two">Уровень 2</a>
+                  <ul>
+                     <li><a href="#" class="lvl_three">Уровень 3</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+
+
+      
+   </body>
+</html>

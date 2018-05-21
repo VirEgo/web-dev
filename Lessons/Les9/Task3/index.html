@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Вложенные плавающие блоки</title>
+      <meta charset="utf-8" />
+
+      <style>
+		
+		body {
+			color: white;
+		}
+      
+      	 #one {
+      	 	width: 20%;
+      	 	float: left;
+      	 }
+      	 #two_main {
+      	 	width: 80%;
+      	 	float: left;
+      	 }
+      	 #two_inner_one {
+    		float: right;
+    		width: 20%;
+		}
+
+		#two_inner_two {
+    		float: left;
+    		width: 80%;
+    				}
+
+      	 #three_inner_one {
+      	 	float: right;
+      	 	width: 34%;
+      	 }
+
+		#three_inner_two {
+      	 	float: left;
+      	 	width: 33%;
+      	 }
+
+      	 #three_inner_three {
+ 	    	float: left;
+    		width: 33%;
+      	 }
+      </style>
+   </head>
+   <body>
+      <div id="one"style="background-color: #F00;">1</div>
+      <div id="two_main" style="background-color: #0F0;">
+         <div id="two_inner_one" style="background-color: #00F;">2</div>
+         <div id="two_inner_two" style="background-color: #000;">
+            <div id="three_inner_one" style="background-color: #F0F;">3</div>
+            <div id="three_inner_two" style="background-color: #0FF;">3<br />3</div>
+            <div id="three_inner_three" style="background-color: #FF0;">3<br />3<br />3</div>
+         </div>
+      </div>
+
+      
+   </body>
+</html>
+
+      
+      
