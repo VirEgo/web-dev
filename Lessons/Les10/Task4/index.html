@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Позиционирование</title>
+      <meta charset="utf-8" />
+
+      <style>
+      	
+      	ul {
+      		list-style-type: none;
+      		display: block;
+      		float: left;
+      	}
+
+      	.hidden {
+      		position: absolute;
+      		background: red;
+      		width: 100%;
+      		top: 0;
+      		visibility: hidden;
+      	}
+
+      	.main {
+      		position: relative;
+      	}
+
+      	.hover:hover > .hidden {
+
+      		visibility: visible;
+      		z-index: 999;
+      	}
+      </style>
+   </head>
+   <body>
+      <ul>
+         <li class="main">Уровень 1</li>
+         <li class="main hover">
+            Уровень 1
+            <ul class="hidden">
+               <li>Уровень 2</li>
+               <li>Уровень 2</li>
+            </ul>
+         </li>
+         <li class="main">Уровень 1</li>
+      </ul>
+
+   </body>
+</html>

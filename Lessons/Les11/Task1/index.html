@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Адаптивный дизайн</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<style>
+	body {
+		 	margin: 0 auto;
+		 	width: 1000px;
+		 }
+		div {
+			border: 1px solid black;
+		}
+
+		
+
+
+		@media (max-width: 576px) { 
+			div {
+				width: 100%;
+				float: left;
+			}
+		 }
+
+		@media (min-width: 768px) and (max-width: 991px) { 
+			
+			div:nth-child(2) {
+				float: left;
+				width: 25%;
+			}
+
+			div:nth-child(3){
+				width: 50%;
+				float: left;			
+			}
+		}
+
+		@media (min-width: 992px) {
+			
+			div:nth-child(5){
+			    clear: both;
+			}
+
+			div:nth-child(2) {
+				float: left;
+				width: 25%;
+			}
+
+			div:nth-child(3){
+			width: 40%;
+			margin: 0 5% 0 5%;
+			float: left;			
+			}
+
+			
+			div:nth-child(4) {
+				width: 24%;
+				float: right;
+			}
+			 }
+	</style>
+</head>
+<body>
+	<div>100% – 100% – 100%</div>
+	<div>100% – 25% – 20%</div>
+	<div>100% – 25% – 20%</div>
+	<div>100% – 50% – 50%</div>
+	<div>100% – 100% – 100%</div>
+
+</body>
+</html>
