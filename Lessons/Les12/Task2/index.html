@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Выравнивание элементов</title>
+      <meta charset="utf-8" />
+      <style>
+         div {
+            padding: 5px;
+            border: 2px solid black;
+            margin: 5px;
+         }
+         .flex-container {
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-flow: column;
+
+         }
+
+         div:nth-child(2){ align-self: center; }
+         div:nth-child(3){align-self: stretch; }
+         div:nth-child(4){align-self: center;}
+         div:nth-child(5){align-self: flex-end;}
+      </style>
+   </head>
+   <body>
+      <div class="flex-container">
+         <div>Flex item 1</div>
+         <div class="item_two">Flex item 2</div>
+         <div>Flex item 3</div>
+         <div>Flex item 4</div>
+         <div>Flex item 5</div>
+      </div>
+   </body>
+</html>

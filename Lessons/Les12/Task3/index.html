@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Управление элементами</title>
+      <meta charset="utf-8" />
+      <style>
+         div {
+            padding: 5px;
+            border: 2px solid black;
+            margin: 5px;
+         }
+
+         .flex-container_one {
+            width: 400px;
+            display: flex;
+         }
+
+         .flex-container_two {
+            width: 500px;
+            display: inline-flex;
+         }
+
+         .flex-container_three {
+            width: 600px;
+            display: flex;
+         }
+         
+         .flex-container_one div:nth-child(odd) {
+            flex-basis: 40%;
+         }
+         .flex-container_two div,
+         .flex-container_three div {
+            flex-basis: 25%;
+         }
+
+      </style>
+   </head>
+   <body>
+      <div class="flex-container_one">
+         <div>Flex item 1</div>
+         <div>Flex item 2</div>
+         <div>Flex item 3</div>
+         <div>Flex item 4</div>
+      </div>
+
+      <div class="flex-container_two">
+         <div>Flex item 1</div>
+         <div>Flex item 2</div>
+         <div>Flex item 3</div>
+         <div>Flex item 4</div>
+      </div>
+
+      <div class="flex-container_three">
+         <div>Flex item 1</div>
+         <div>Flex item 2</div>
+         <div>Flex item 3</div>
+         <div>Flex item 4</div>
+      </div>
+   </body>
+</html>
