@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+ul>li {
+	list-style: none;
+
+}
+
+.nav a{
+	color: #000;
+	text-transform: uppercase;
+}
+a.active {
+	color: #40d4cf;
+}
+.container {
+    max-width: 1360px;
+	margin: auto;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.logo {
+	margin-top: 38px;
+	margin-bottom: 37px;
+}
+
+.home-menu {
+	line-height: 24px;
+	font-size: 12px;
+	font-weight: medium;
+}
+
+.home-menu a {
+	margin-right: 20px;
+}
+
+.home-menu a:last-child {
+	margin-right: 0;
+}
+
+/* // navigation */
+
+/* header start */
+.header {
+	width: 1360px;
+	height: 315px;
+	margin: auto;
+	background: #f6f6f6;
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.header-title {font-size: 24px; padding-top: 101px;}
+.header-description {
+	font-size: 16px;
+	padding-top: 40px;
+	padding-bottom: 100px;
+	color: #787878;
+}
+
+/* header end */
+/* squares start*/
+#squares {
+}
+.squares.first-line,
+.squares.second-line{
+	display: flex;
+}
+
+.square {
+	width: 340px;
+	height: 300px;
+	display: flex;
+}
+.square i {
+	font-size: 48px;
+	color: #fff;
+	visibility: hidden;
+  	margin: auto;
+  }
+
+.first-line .square:nth-child(odd){
+	background: #838383;
+}
+.first-line .square:nth-child(even){
+	background: #ddd;
+}
+
+.second-line .square:nth-child(even){
+	background: #838383;
+}
+.second-line .square:nth-child(odd){
+	background: #ddd;
+}
+
+.first-line .square:hover,
+.second-line .square:hover {
+	background: #21bfb9;
+}
+
+.first-line .square:hover i,
+.second-line .square:hover i {
+	visibility: visible;
+}
+/* squares end*/
+
+/* footer start*/
+
+.footer {
+	width: 100%;
+	height: 285px;
+	background: #000;
+}
+
+.footer-company {
+	color: #fff;
+}
+.footer-contacts a {
+	color: #bcbcbc;
+}
+.footer-nav{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-nav li>a{
+	color: #bcbcbc; 
+}
+/* footer end*/
