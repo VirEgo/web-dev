@@ -23,7 +23,7 @@ a.active {
 	color: #40d4cf;
 }
 .container {
-    max-width: 1360px;
+    max-width: 1140px;
 	margin: auto;
 }
 
@@ -56,7 +56,7 @@ a.active {
 
 /* header start */
 .header {
-	width: 1360px;
+	width: 100%;
 	height: 315px;
 	margin: auto;
 	background: #f6f6f6;
@@ -74,6 +74,8 @@ a.active {
 /* header end */
 /* squares start*/
 #squares {
+	width: 100%;
+	height: 900px;
 }
 .squares.first-line,
 .squares.second-line{
@@ -81,7 +83,7 @@ a.active {
 }
 
 .square {
-	width: 340px;
+	width: 25%;
 	height: 300px;
 	display: flex;
 }
@@ -118,24 +120,38 @@ a.active {
 /* squares end*/
 
 /* footer start*/
-
+#footer{
+	background: #000;
+}
 .footer {
 	width: 100%;
 	height: 285px;
-	background: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
 }
 
 .footer-company {
 	color: #fff;
 }
+
 .footer-contacts a {
 	color: #bcbcbc;
 }
-.footer-nav{
+.footer-nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.first-foot-nav {
+	margin-right: 145px;
+}
+.second-foot-nav {
+	margin-right: 55px;
 }
 .footer-nav li>a{
-	color: #bcbcbc; 
+	color: #bcbcbc;
+
 }
 /* footer end*/

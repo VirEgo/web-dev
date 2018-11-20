@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans');
 
-header,
-section,
-footer {
-	display: block;
-}
 
-div {
-	-webkit-background-origin: border-box;
-	background-origin: border-box;
-}
+
 
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
+
+a {
+	text-decoration: none;
+}
+
+ul>li {
+	list-style: none;
+
+}
+
 .container {
 	width: 1170px;
-	margin: 0 auto;
 	display: flex;
 	align-items: center;
 }
@@ -489,6 +490,8 @@ input {
 	border-style: none;
 	background: #fff;
 	padding-left: 20px;
+	padding-top: 20px;
+
 }
 
 .message-btn {
@@ -507,70 +510,44 @@ input {
 	margin-top: 30px;
 }
 
-#footer {
+/* footer start*/
+#footer{
+	background: #000;
+}
+.footer {
 	width: 100%;
-	height: 280px;
-	background-color: #000;
-}
-.foot {
-
-	padding-top: 100px;
-}
-
-
-.col-2 { width: calc(70px * 2) }
-.col-3 { width: calc(70px * 3) }
-.col-4 { 
-	width: calc(70px * 4);
-	padding-left: 10%;
-	color: #fff;
-}
-
-.col-3 span {
-	font-size: 15px;
-	color: #bcbcbc;
-	width: 115%;
-	display: block;
-}
-.col-3 .foot-title a {
-	font-size: 18px;
-	text-decoration: none;
-	color: #fff;
-	padding-bottom: 31px;
-}
-.foot-title {
-	padding-bottom: 31px;
-}
-
-.foot-elem {
-	display: block;
-	font-size: 15px;
-	text-decoration: none;
-	color: #bcbcbc;
-}
-
-.col-4 a {
-
-	line-height: 2.2em;
-}
-.col-3 .foot-info a,
-.col-2 .foot-social a {
-	text-decoration: none;
-	color: #bcbcbc;
-}
-
-.col-3 .foot-info {
+	height: 285px;
 	display: flex;
-	justify-content: flex-start;
-	max-width: 90%;
+	justify-content: space-between;
+	align-items: center;
+	
 }
 
-.foot-first-block,
-.foot-second-block,
-.foot-social {
-	font-size: 15px;
+.footer-company {
+	color: #fff;
+	margin-left: 100px;
 }
-ul, li {
-	margin: 0;
+
+.footer-contacts a {
+	color: #bcbcbc;
 }
+.footer-nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.first-foot-nav {
+	margin-right: 145px;
+}
+.second-foot-nav {
+	margin-right: 55px;
+}
+.social-foot-nav {
+	margin-right: 130px
+}
+.footer-nav li>a{
+	color: #bcbcbc;
+
+}
+/* footer end*/
 
