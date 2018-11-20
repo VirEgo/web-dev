@@ -131,12 +131,12 @@ input {
 	border-style: none;
 }
 
-textarea::-webkit-input-placeholder {
+/*textarea::-webkit-input-placeholder {
 	padding-left: 20px;
 }
 input::-webkit-input-placeholder {
 	padding-left: 20px;
-}
+}*/
 
 #form-name {
 	margin-right: 25px;
@@ -144,17 +144,19 @@ input::-webkit-input-placeholder {
 
 #form-name,
 #form-email {
-	width: 320px;
+	width: 300px;
+	padding-left: 20px;
 	margin-bottom: 30px;
 	}
 
 #form-title {
-	width: 670px;
+	width: 650px;
+	padding-left: 20px;
 	margin-bottom: 30px;
 }
 
 #form-comment {
-	width: 670px;
+	width: 650px;
 	height: 170px;
 	resize: none;
 	font-size: 16px;
@@ -162,6 +164,7 @@ input::-webkit-input-placeholder {
 	border-style: none;
 	background: #fff;
 	padding-top: 20px;
+	padding-left: 20px;
 	margin-bottom: 30px;
 
 }
