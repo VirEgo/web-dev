@@ -6,6 +6,9 @@
   	.nav {
 		justify-content: space-around;
 	}
+	.wrapper {
+		width: 100%;
+	}
 
 	.info {
  	width: 50%;
@@ -47,6 +50,18 @@
 	.message-btn {
 		margin: 30px auto;
 		line-height: 50px
+	}
+	.map {
+		height: 250px;
+	}
+	.map-block {
+		width: 80%;
+		height: 200px;
+		margin: auto;
+	}
+	.map-block img {
+		display: none;
+		
 	}
 }
 
