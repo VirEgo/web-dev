@@ -1,3 +1,366 @@
-@media screen and (max-width: 420px) {
+/*=====================================================
+		=             Media Queries            =
+=====================================================*/
+@media only screen and (max-width : 1200px) {
+ 
+  	.nav {
+		justify-content: space-around;
+	}
+
+	.info {
+ 	width: 50%;
+ 	height: auto;
+ 	text-align: center;
+ 	}
+
+	.info h1 {
+	margin-top: 70px;
+	}
+
+	.form {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	#form-name,
+	#form-email,
+	#form-title,
+	#form-comment {
+	width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
+	}
+
+	#form-name {
+		margin-top: 100px;
+	}
+	#form-comment {
+		height: 100px;
+		font-size: 16px;    
+		font-family: 'Nunito Sans', sans-serif;
+		color: #8e9090;
+		padding-top: 10px;
+	} 
+	.message-btn {
+		margin: 30px auto;
+		line-height: 50px
+	}
+}
+
+@media only screen and (max-width : 979px) {
+	.nav {
+		justify-content: space-around;
+	}
+ 
+	.info {
+ 	width: 50%;
+ 	height: auto;
+ 	text-align: center;
+ 	}
+
+	.info h1 {
+	margin-top: 50px;
+	}
+
+	.form {
+		width: 50%;
+		height: auto;
+		display: block;
+	}
+	#form-name,
+	#form-email,
+	#form-title,
+	#form-comment {
+	width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
+	}
+
+	#form-name {
+		margin-top: 100px;
+	}
+	#form-comment {
+		height: 100px;
+		font-size: 16px;    
+		font-family: 'Nunito Sans', sans-serif;
+		color: #8e9090;
+		padding-top: 10px;
+	} 
+	.message-btn {
+		margin: 30px auto;
+		line-height: 50px
+	}
+
+	.footer {
+		justify-content: space-around;
+	}
+	.first-foot-nav {
+    margin-right: 70px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
 	
+	.nav {
+		justify-content: space-around;
+	}
+ 
+	.info {
+ 	width: 50%;
+ 	height: auto;
+ 	text-align: center;
+ 	}
+
+	.info h1 {
+	margin-top: 50px;
+	}
+	.info p {
+		font-size: 13px;
+	}
+
+	.form {
+		width: 50%;
+		height: auto;
+		display: block;
+	}
+	#form-name,
+	#form-email,
+	#form-title,
+	#form-comment {
+	width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
+	}
+
+	#form-name {
+		margin-top: 100px;
+	}
+	#form-comment {
+		height: 100px;
+		font-size: 16px;    
+		font-family: 'Nunito Sans', sans-serif;
+		color: #8e9090;
+		padding-top: 10px;
+	} 
+	.message-btn {
+		margin: 30px auto;
+		line-height: 50px
+	}
+
+	#footer {
+		height: 252px;
+	}
+
+	.footer {
+		height: 234px;
+		display: block;
+    	text-align: center;
+	}
+	.footer-company {
+		margin: 0;
+		font-size: 12px;
+	}
+	.footer-company p {
+		font-size: 12px;
+	}
+	.footer-company>h2 {
+		padding-top: 30px;
+		margin-bottom: 20px;
+	}
+	.footer-company,
+	.footer-contacts {
+		margin-bottom: 20px;
+	}
+
+	.footer-nav {
+		padding-bottom: 20px;
+	}
+	.footer-contacts,
+	.first-foot-nav,
+	.second-foot-nav,
+	.social-foot-nav {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	
+	
+	.nav {
+		justify-content: space-around;
+	}
+	.contact-info {
+		height: 1100px;
+		
+	}
+	.contacts-wrapper {
+		display: block;
+		height: 1020px;
+		
+	}
+ 
+	.info,
+	.form {
+ 	width: 100%;
+ 	height: auto;
+ 	text-align: center;
+ 	}
+ 	.info h1 {
+ 		margin-top: 0;
+ 		padding-top: 50px;
+ 	}
+
+	.form {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	#form-name,
+	#form-email,
+	#form-title,
+	#form-comment {
+	width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
+	}
+
+	#form-name {
+		margin-top: 100px;
+	}
+	#form-comment {
+		height: 100px;
+		font-size: 16px;    
+		font-family: 'Nunito Sans', sans-serif;
+		color: #8e9090;
+		padding-top: 10px;
+	} 
+	.message-btn {
+		margin: 30px auto 0;
+		line-height: 50px
+	}
+	#footer {
+		height: 252px;
+	}
+
+	.footer {
+		height: 234px;
+		display: block;
+    	text-align: center;
+	}
+	.footer-company {
+		margin: 0;
+		font-size: 12px;
+	}
+	.footer-company p {
+		font-size: 12px;
+	}
+	.footer-company>h2 {
+		padding-top: 30px;
+		margin-bottom: 20px;
+	}
+	.footer-company,
+	.footer-contacts {
+		margin-bottom: 20px;
+	}
+
+	.footer-nav {
+		padding-bottom: 20px;
+	}
+	.footer-contacts,
+	.first-foot-nav,
+	.second-foot-nav,
+	.social-foot-nav {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width : 320px) {
+	.nav {
+		height: 70px;
+	}
+	.contacts-wrapper {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		
+	}
+	.container {
+		text-align: center;
+	}
+	.contact-info {
+		width: 100%;
+		height: auto;
+		
+	}
+	.info {
+		width: 100%;
+		
+	}
+	.info h1 {
+		font-size: 18px;
+	}
+	.info p {
+		font-size: 14px;
+	}
+
+	.client.container {
+		font-size: 13px;
+	}
+	.form {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	#form-name,
+	#form-email,
+	#form-title,
+	#form-comment {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		padding: 0;
+		text-align: center;
+	}
+
+	#form-name {
+		margin-top: 50px;
+	}
+	#form-comment {
+		height: 100px;
+		font-size: 16px;    
+		font-family: 'Nunito Sans', sans-serif;
+		color: #8e9090;
+		padding-top: 10px;
+	} 
+	.message-btn {
+		display: block;
+		margin: 30px auto;
+		line-height: 50px
+	}
+	.footer-company {
+		margin-left: 30px;
+	}
+
+	.first-foot-nav {
+    	margin-right: 40px;
+	}
+	
+	.second-foot-nav {
+		margin-right: 30px;
+	}
+
+	.social-foot-nav {
+	}
 }
