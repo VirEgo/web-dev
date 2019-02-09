@@ -1,0 +1,651 @@
+@media  screen and (min-width : 768px) and (max-width : 1024px) {
+    /*About section*/
+    .about_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_photo {
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+        opacity: .4;
+        padding-top: 0px;
+    }
+    .about_text {
+        z-index: 1;
+        position: absolute;
+        margin-left: 0;
+    }
+    .about_text #hire-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Working process section*/
+
+    .working_process-params {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+
+
+    }
+    .work_experience-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .param-item {
+        margin-bottom: 10px;
+    }
+    .work_experience {
+        margin-bottom: 30px;
+        margin-right: 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    /*Latest work section*/
+
+    .works_example {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr) ;
+        grid-template-rows: repeat(4,150px);
+        grid-template-areas:
+            ". blue purple ."
+            ". navy red ."
+            ". purple purple ."
+            ". navy red .";
+        margin: auto 30px;
+    }
+    /*Clients section*/
+    .clients_wrapper {
+        margin:0 auto;
+        text-align: center;
+        padding-left:0;
+    }
+    .form_wrapper {
+       grid-template-columns: 1fr;
+        margin: auto 30px;
+    }
+    .form_message span {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .form_data {
+        margin-left: 0;
+        margin-top: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-areas:
+                "form_address form_address"
+                "form_phone form_web";
+    }
+    .form_address {grid-area: form_address; margin: 0;}
+    .form_phone {grid-area: form_phone; margin: 0;}
+    .form_web {grid-area: form_web}
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    /*About section*/
+    .about_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_photo {
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+        opacity: .4;
+        padding-top: 0px;
+    }
+    .about_text {
+        z-index: 1;
+        position: absolute;
+        margin-left: 0;
+    }
+    .about_text #hire-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Working process section*/
+
+    .working_process-params {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+
+    }
+    .work_experience-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .param-item {
+        margin-bottom: 10px;
+    }
+    .work_experience {
+        margin-bottom: 30px;
+        margin-right: 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    /*Latest work section*/
+
+    .works_example {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr) ;
+        grid-template-rows: repeat(4,150px);
+        grid-template-areas:
+                ". blue purple ."
+                ". navy red ."
+                ". purple purple ."
+                ". navy red .";
+
+        margin: auto 30px;
+    }
+
+    /*Clients section*/
+    .clients_wrapper {
+        margin:0 auto;
+        text-align: center;
+    }
+    .form_wrapper {
+        grid-template-columns: 1fr;
+        margin: auto 20px;
+        padding-bottom: 25px;
+    }
+    .form_message {
+        /*width: calc(100% - 40px);*/
+        text-align: center;
+    }
+    .form_message span {
+        display: block;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+    .form_data {
+        margin-left: 0;
+        margin-top: 15px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-areas:
+                "form_address form_address"
+                "form_phone form_phone"
+                "form_web form_web ";
+    }
+    .form_address {grid-area: form_address; margin: 0; }
+    .form_phone {grid-area: form_phone; margin: 0;}
+    .form_web {grid-area: form_web}
+    .form_address,
+    .form_phone,
+    .form_web {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 599px) {
+    /*Nav */
+
+    .nav .nav-block {
+        padding: 10px 0px 0px 7px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /*About section*/
+    .about_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_photo {
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+        opacity: .4;
+        padding-top: 0px;
+    }
+    .about_text {
+        z-index: 1;
+        position: absolute;
+        margin-left: 0;
+    }
+    .about_text #hire-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_wrapper .about_text .about_text-content {
+        font-size: 14px;
+    }
+
+    /*Working process section*/
+
+    .working_process-params {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+
+    }
+    .work_experience-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .param-item {
+        margin-bottom: 10px;
+    }
+    .work_experience {
+        margin-bottom: 30px;
+        margin-right: 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    /*Latest work section*/
+
+    .works_example {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr) ;
+        grid-template-rows: repeat(4,150px);
+        grid-template-areas:
+                ". blue purple ."
+                ". navy red ."
+                ". purple purple ."
+                ". navy red .";
+
+        margin: auto 30px;
+    }
+
+    /*Clients section*/
+
+    .client_text {
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .clients_wrapper {
+        margin:0 auto;
+        text-align: center;
+    }
+    .form_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto 20px;
+        padding-bottom: 25px;
+    }
+    .form_message,
+    .form_address,
+    .form_phone,
+    .form_web {
+        text-align: center;
+    }
+    .form_message span {
+        display: block;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+    .form_data {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-areas:
+                "form_address"
+                "form_phone"
+                "form_web";
+    }
+    .form_address {grid-area: form_address; margin: 0;}
+    .form_phone {grid-area: form_phone; margin: 0;}
+    .form_web {grid-area: form_web}
+
+
+    /*Work Experience*/
+    .work_experience-item .item-text,
+    .education-item .item-text {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    /*Nav */
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .header_content {
+        padding-top: 200px;
+    }
+    .header_content__title {
+        width: 70%;
+        font-size: 35px;
+    }
+
+    .nav .nav-block {
+        padding: 10px 0px 0px 7px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /*About section*/
+    .about_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_photo {
+        width: 150px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .about_photo img {
+        width: 150px;
+    }
+    .about_text {
+        margin-left: 0;
+    }
+    .about_text #hire-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_wrapper .about_text .about_text-content {
+        font-size: 14px;
+    }
+
+    /*Working process section*/
+
+    .working_process-params {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+
+    }
+    .working_process-content {
+        font-size: 15px;
+    }
+    .work_experience-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .param-item {
+        margin-bottom: 10px;
+    }
+    .work_experience {
+        margin-bottom: 30px;
+        margin-right: 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    /*Latest work section*/
+
+    .works_example {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr) ;
+        grid-template-rows: repeat(4,150px);
+        grid-template-areas:
+                ". blue purple ."
+                ". navy red ."
+                ". purple purple ."
+                ". navy red .";
+
+        margin: auto 30px;
+    }
+    .latest_work-content {
+        font-size: 15px;
+        padding-bottom: 65px;
+    }
+    .h2 {
+        font-size:35px;
+    }
+
+    /*Clients section*/
+
+    .client_text {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .clients_wrapper {
+        margin:0 auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left:0;
+    }
+    .form_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto 20px;
+        padding-bottom: 25px;
+    }
+    .form-h2{
+        font-size: 19px;
+    }
+
+    .address-text,
+    .phone-text,
+    .web-text {
+        font-size: 13px;
+    }
+    .form_message,
+    .form_address,
+    .form_phone,
+    .form_web {
+        text-align: center;
+        padding-left: 0;
+    }
+    .form_message span {
+        display: block;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+    .form_data {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-areas:
+                "form_address"
+                "form_phone"
+                "form_web";
+    }
+    .form_address {grid-area: form_address; margin: 0;}
+    .form_phone {grid-area: form_phone; margin: 0;}
+    .form_web {grid-area: form_web}
+
+    .message-h2 {
+        font-size: 19px;
+        padding-left: 0px;
+        padding-top: 65px;
+    }
+
+
+    /*Work Experience*/
+    .work_experience-item .item-text,
+    .education-item .item-text {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 320px) {
+    /*Nav */
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .header_content {
+        padding-top: 200px;
+    }
+    .header_content__title {
+        width: 70%;
+        font-size: 35px;
+    }
+
+    .nav .nav-block {
+        padding: 10px 0px 0px 7px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /*About section*/
+    .about_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_photo {
+        width: 150px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .about_photo img {
+        width: 150px;
+    }
+    .about_text {
+        margin-left: 0;
+    }
+    .about_text #hire-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_wrapper .about_text .about_text-content {
+        font-size: 14px;
+    }
+
+    /*Working process section*/
+
+    .working_process-params {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+
+    }
+    .working_process-content {
+        font-size: 15px;
+    }
+    .work_experience-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .param-item {
+        margin-bottom: 10px;
+    }
+    .work_experience {
+        margin-bottom: 30px;
+        margin-right: 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    /*Latest work section*/
+
+    .works_example {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr) ;
+        grid-template-rows: repeat(4,150px);
+        grid-template-areas:
+                ". blue purple ."
+                ". navy red ."
+                ". purple purple ."
+                ". navy red .";
+
+        margin: auto 30px;
+    }
+    .latest_work-content {
+        font-size: 15px;
+        padding-bottom: 65px;
+    }
+    .h2 {
+        font-size:35px;
+    }
+
+    /*Clients section*/
+
+    .client_text {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .clients_wrapper {
+        margin:0 auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left:0;
+    }
+    .form_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto 20px;
+        padding-bottom: 25px;
+    }
+    .form-h2{
+        font-size: 19px;
+    }
+
+    .address-text,
+    .phone-text,
+    .web-text {
+        font-size: 13px;
+    }
+    .form_message,
+    .form_address,
+    .form_phone,
+    .form_web {
+        text-align: center;
+        padding-left: 0;
+    }
+    .form_message span {
+        display: block;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+    .form_data {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-areas:
+                "form_address"
+                "form_phone"
+                "form_web";
+    }
+    .form_address {grid-area: form_address; margin: 0;}
+    .form_phone {grid-area: form_phone; margin: 0;}
+    .form_web {grid-area: form_web}
+
+    .message-h2 {
+        font-size: 19px;
+        padding-left: 0px;
+        padding-top: 65px;
+    }
+
+
+    /*Work Experience*/
+    .work_experience-item .item-text,
+    .education-item .item-text {
+        font-size: 14px;
+    }
+}
+
